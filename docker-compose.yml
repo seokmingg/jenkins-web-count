@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   webserver:
-    #build: .
+    build: .
     image: seokmingg/web_count:v1.0 
     ports:
      - "8899:8899"
